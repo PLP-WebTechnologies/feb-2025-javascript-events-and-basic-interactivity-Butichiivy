@@ -1,0 +1,26 @@
+.patient-box {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #f0fff0;
+  border-left: 4px solid #4c82af;
+  border-radius: 5px;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.gallery-img {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s, border 0.3s;
+}
+
+small {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
